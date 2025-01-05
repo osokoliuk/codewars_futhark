@@ -57,7 +57,7 @@ module complex_module = {
                     (true, ns'[0])
                 else
                     let n0 = n1
-                    let n1 = n1 + 1000
+                    let n1 = n1 + 100
                     in (false, -1)
                 in n_iter
         in n_min
